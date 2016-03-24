@@ -23,14 +23,9 @@ PRODUCT_PACKAGES += \
     shutdownlistener
 
 PRODUCT_PACKAGES += \
-    libHevcSwDecoder \
-    libmm-abl \
     libtime_genoff \
     libTimeService \
     TimeService
-
-PRODUCT_PACKAGES += \
-    libscale \
 
 PRODUCT_PACKAGES += \
     libwvdrmengine \

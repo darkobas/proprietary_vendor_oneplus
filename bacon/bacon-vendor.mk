@@ -19,7 +19,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/oneplus/bacon/overlay
 
 PRODUCT_PACKAGES += \
     CNEService \
-    com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
     com.qualcomm.location \

@@ -16,8 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),bacon)
-
+ifneq ($(filter bacon find7op,$(TARGET_DEVICE)),)
 
 ifeq ($(QCPATH),)
 include $(CLEAR_VARS)

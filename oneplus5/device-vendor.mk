@@ -882,3 +882,19 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so
 endif
+
+#temp DRM stuff from marlin
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/oneplus5/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/oneplus/oneplus5/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/oneplus/oneplus5/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/oneplus/oneplus5/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/oneplus/oneplus5/proprietary/vendor/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
+    vendor/oneplus/oneplus5/proprietary/vendor/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
+    vendor/oneplus/oneplus5/proprietary/vendor/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
+    vendor/oneplus/oneplus5/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
+    vendor/oneplus/oneplus5/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so

@@ -389,6 +389,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libseemore.so:system/vendor/lib64/libseemore.so
 
 PRODUCT_PACKAGES += \
+    OnePlusCamera \
+    OnePlusCameraService \
     IFAAService \
     SmartcardService \
     org.simalliance.openmobileapi \
@@ -898,3 +900,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so
+
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/oneplus5/proprietary/lib/libfilter-sdk.so:system/lib/libfilter-sdk.so \
+    vendor/oneplus/oneplus5/proprietary/lib/libopbaselib.so:system/lib/libopbaselib.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libfilter-sdk.so:system/lib64/libfilter-sdk.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libopbaselib.so:system/lib64/libopbaselib.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libopcamera.so:system/lib64/libopcamera.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libopcameralib.so:system/lib64/libopcameralib.so
+

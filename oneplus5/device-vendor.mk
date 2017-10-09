@@ -422,7 +422,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/bin/radish:system/bin/radish \
     vendor/oneplus/oneplus5/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/oneplus/oneplus5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/oneplus/oneplus5/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/oneplus/oneplus5/proprietary/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/oneplus/oneplus5/proprietary/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/oneplus/oneplus5/proprietary/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/oneplus/oneplus5/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \

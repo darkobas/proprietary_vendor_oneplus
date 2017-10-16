@@ -405,7 +405,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/oneplus/oneplus5/proprietary/bin/dpmd:system/vendor/bin/dpmd \
     vendor/oneplus/oneplus5/proprietary/bin/energy-awareness:system/vendor/bin/energy-awareness \
-    vendor/oneplus/oneplus5/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/oneplus/oneplus5/proprietary/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/oneplus/oneplus5/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/oneplus/oneplus5/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/oneplus/oneplus5/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \

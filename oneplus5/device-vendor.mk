@@ -399,7 +399,7 @@ PRODUCT_PACKAGES += \
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/oneplus/oneplus5/proprietary/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/oneplus/oneplus5/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/oneplus/oneplus5/proprietary/bin/cnd:system/bin/cnd \
     vendor/oneplus/oneplus5/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/oneplus/oneplus5/proprietary/bin/cnss_diag:system/bin/cnss_diag \
@@ -410,7 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/oneplus/oneplus5/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/oneplus/oneplus5/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/oneplus/oneplus5/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/oneplus/oneplus5/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/oneplus/oneplus5/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/oneplus/oneplus5/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/oneplus/oneplus5/proprietary/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
@@ -420,11 +420,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/oneplus/oneplus5/proprietary/bin/qvop-daemon:system/vendor/bin/qvop-daemon \
     vendor/oneplus/oneplus5/proprietary/bin/radish:system/bin/radish \
-    vendor/oneplus/oneplus5/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/oneplus/oneplus5/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/oneplus/oneplus5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/oneplus/oneplus5/proprietary/bin/tftp_server:system/vendor/bin/tftp_server \
-    vendor/oneplus/oneplus5/proprietary/bin/time_daemon:system/vendor/bin/time_daemon \
-    vendor/oneplus/oneplus5/proprietary/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
+    vendor/oneplus/oneplus5/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/oneplus/oneplus5/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/oneplus/oneplus5/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/oneplus/oneplus5/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/oneplus/oneplus5/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
@@ -908,4 +908,21 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/lib64/libopbaselib.so:system/lib64/libopbaselib.so \
     vendor/oneplus/oneplus5/proprietary/lib64/libopcamera.so:system/lib64/libopcamera.so \
     vendor/oneplus/oneplus5/proprietary/lib64/libopcameralib.so:system/lib64/libopcameralib.so
+
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/oneplus5/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+    vendor/oneplus/oneplus5/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+    vendor/oneplus/oneplus5/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
+    vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/etc/perfboostsconfig.xml:system/vendor/etc/perfboostsconfig.xml
 

@@ -926,3 +926,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/perfboostsconfig.xml:system/vendor/etc/perfboostsconfig.xml
 
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/oneplus5/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/oneplus/oneplus5/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/oneplus/oneplus5/proprietary/lib/libldacBT_abr.so:system/lib/libldacBT_abr.so \
+    vendor/oneplus/oneplus5/proprietary/lib/libldacBT_enc.so:system/lib/libldacBT_enc.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libldacBT_abr.so:system/lib64/libldacBT_abr.so \
+    vendor/oneplus/oneplus5/proprietary/lib64/libldacBT_enc.so:system/lib64/libldacBT_enc.so
+

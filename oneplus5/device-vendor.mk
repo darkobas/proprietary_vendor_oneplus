@@ -851,6 +851,9 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     shutdownlistener \
+    CNEService \
+    ims \
+    imssettings \
     QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \

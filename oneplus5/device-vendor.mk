@@ -937,6 +937,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oneplus/oneplus5/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
 	vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
 	vendor/oneplus/oneplus5/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+	vendor/oneplus/oneplus5/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
 	vendor/oneplus/oneplus5/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
 	vendor/oneplus/oneplus5/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
 	vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \

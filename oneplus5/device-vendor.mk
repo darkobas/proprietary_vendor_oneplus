@@ -415,8 +415,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/oneplus/oneplus5/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/oneplus/oneplus5/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/oneplus/oneplus5/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/oneplus/oneplus5/proprietary/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/oneplus/oneplus5/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/oneplus/oneplus5/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -429,8 +427,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
-    vendor/oneplus/oneplus5/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/oneplus/oneplus5/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/oneplus/oneplus5/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/oneplus/oneplus5/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/oneplus/oneplus5/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
@@ -480,7 +476,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/oneplus/oneplus5/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/oneplus/oneplus5/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-    vendor/oneplus/oneplus5/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/oneplus/oneplus5/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
@@ -749,11 +744,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libmiracast.so:system/vendor/lib64/libmiracast.so \
@@ -828,9 +818,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
@@ -840,7 +827,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
     libbtnv \
     libgpustats \
     libsdm-disp-apis \
@@ -942,4 +928,42 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/oneplus/oneplus5/proprietary/lib64/libldacBT_abr.so:system/lib64/libldacBT_abr.so \
     vendor/oneplus/oneplus5/proprietary/lib64/libldacBT_enc.so:system/lib64/libldacBT_enc.so
+
+PRODUCT_COPY_FILES += \
+	vendor/oneplus/oneplus5/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
+	vendor/oneplus/oneplus5/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
+	vendor/oneplus/oneplus5/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
+	vendor/oneplus/oneplus5/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
+	vendor/oneplus/oneplus5/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+	vendor/oneplus/oneplus5/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+	vendor/oneplus/oneplus5/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
+	vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/libloc_externalDr.so:system/vendor/lib/libloc_externalDr.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+	vendor/oneplus/oneplus5/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
+	vendor/oneplus/oneplus5/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
+	vendor/oneplus/oneplus5/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
+	vendor/oneplus/oneplus5/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
+	vendor/oneplus/oneplus5/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem
+  
 
